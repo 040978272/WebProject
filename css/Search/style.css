@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#filter-bar{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 100vh;
+    border-right: 2px solid #DDDDDD;
+}
+
+#filter-bar>div>span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#filter-bar>div>span{
+    margin-top: 20px;
+    
+}
+
+.filter-title{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#star-rate li a{
+    color: #FEA41C;
+}
+
+#price-level li a{
+    color:#C45552;
+
+}
+
+.filter ul span{
+    color: black;
+}
+
+.filter ul li{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+product box
+*/
+
+.product-list{
+    background-color: #F4F4F4;
+}
+
+.product-line{
+    display: block;
+    width: 100%;
+}
+
+.product-line>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product{
+    position: relative;
+    margin: 20px;
+    width: 234px;
+    height: 306px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: white;
+    
+}
+
+.pro-img{
+    width: 234px;
+    height: 234px;
+}
+
+.pro-img img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product h3{
+    height: 16px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e33333;
+}
+
+.product .rate{
+    text-align: center;
+    font-size: 12px;
+    height: 14px;
+    overflow: hidden;
+    color: #FEA41C;
+}
+
+.product .price{
+    text-align: center;
+    font-size: 13px;
+    height: 14px;
+    overflow: hidden;
+    color: black;
+}
+
+.product .flag{
+    position: absolute;
+    height: 20px;
+    text-align: center;
+    width: 74px;
+    background-color: #FF5722;
+    color: #fff;
+}
+
+.product .flag-right {
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    transform-origin:left bottom;
+    -webkit-transform:translate(29.29%,-100%) rotate(45deg);
+    -moz-transform:translate(29.29%,-100%) rotate(45deg);
+    transform:translate(29.29%,-100%) rotate(45deg);
+    right: 0px;
+    top: 0px;
+}
+
+.review{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    font-size: 12px;
+    background-color: #ff6700;
+    color: white;
+    opacity: 0;
+    transition: all .2s linear;
+}
+
+.review p{
+    margin: 8px 30px;
+    color: white;
+}
+
+.product:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.product:hover .review{
+    opacity: 1;
+    height: 76px;
+}

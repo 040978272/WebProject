@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+span{
+    width: 100%;
+    height: 50px;
+}
+#Main{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    width: 900px;
+    height: 500px;
+}
+
+#slide{
+    position: relative;
+    margin: 100px auto;
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+#slide input{
+    display: none
+}
+
+#slide ul{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 2700px;
+    transition: all .5s;
+}
+
+#slide ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slide ul li img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#slide li{
+    display: block;
+    float: left;
+    width: 900px;
+    height: 500px;
+    list-style: none;
+    line-height: 500px;
+    font-size: 50px;
+    margin: 0px auto;
+}
+
+#slide label{
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: 0px solid #fff;
+    z-index: 9999;
+    bottom: 10px;
+}
+
+#button1-lab{
+    left: 400px;
+}
+#button2-lab{
+    left: 450px;
+
+}
+#button3-lab{
+    left: 500px;
+
+}
+
+#button1:checked ~ul{
+    margin-left: 0;
+}
+
+#button2:checked ~ul{
+    margin-left: -900px;
+}
+
+#button3:checked ~ul{
+    margin-left: -1800px;
+}
+
+#button1:checked ~ label[for="button1"]{
+    background: orange;
+}
+
+#button2:checked ~ label[for="button2"]{
+    background: orange;
+}
+
+#button3:checked ~ label[for="button3"]{
+    background: orange;
+}
+
+.category{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 355px;
+    margin-top: 30px;
+}
+.type{
+    width: 900px;
+    height: 50px;
+    display: block;
+    border-bottom: 1px solid slategray;
+}
+
+.type>h1{
+    float: left;
+}
+
+.type>a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-right: 0px;
+    float: right;
+}
+
+.category>.demo_pic{
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 290px;
+    height: 290px;
+    background-color: black;
+    float: left;
+}
+
+.category>.end{
+    margin-right: 0px;
+}
+
+.demo_img{
+    width: 290px;
+    height: 290px;
+}
+

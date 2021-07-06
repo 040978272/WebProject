@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product</title>
+    <link rel="stylesheet" type="text/css"  href="css/Home/home.css">
+    <link rel="stylesheet" type="text/css" href="css/Search/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/Product/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Home/nav.css">
+    <link rel="stylesheet" href="css/Home/home.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">PROSHOP</a></h1>
+          <form>
+            <label for="product-name"></label>  
+            <input type="text" id="product-name" name="product-name" placeholder="Search Products...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+            <ul>
+              <li><a href="#">CART</a></li>
+              <li><a href="#">SIGN IN</a></li>
+              <li><a href="#">FRENCH</a></li>
+            </ul>
+          </div>
+          <label id="butt-navbar" for="checkbox"><i class="fa fa-bars"></i></label>
+    </nav>
+
+    <div class="navbar">
+        <input type="checkbox" id="checkbox"></input>
+        <ul class="level1">
+            <li><a href="./Home.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+            
+            <li><a href="./SearchResult.html"><i class="fa fa-music"></i><span>Audio</span></a></li>
+            <li><a href=""><i class="fa fa-laptop"></i><span>Computers</span></a></li>
+            <li><a href=""><i class="fa fa-mobile"></i><span>Smart Phones</span></a></li>
+                
+            <li><a href=""><i class="fa fa-shopping-cart"></i><span>Check Cart</span></a></li>
+        </ul>
+    </div>
+
+    <div id="filter-bar">
+        <div class="filter">
+            <span>Filter by</span>
+            <ul id="star-rate">
+                <span class="filter-title">Rating</span>
+                <li>
+                    <a href="">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                        <span>& Up</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        <span>& Up</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        <span>& Up</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+
+                        <i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        <span>& Up</span>
+                    </a>
+                </li>
+            </ul>
+            <ul id="price-level">
+                <span class="filter-title">Price</span>
+                <li><a href="">Under $500</a></li>
+                <li><a href="">$500 to $600</a></li>
+                <li><a href="">$600 to $700</a></li>
+                <li><a href="">$700 to $800</a></li>
+                <li><a href="">$800 to $1000</a></li>
+                <li><a href="">$1000 & Above</a></li>
+            </ul>
+        </div>
+        <div class="order"></div>
+        
+    </div>
+
+    <div id="products-box">
+        
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/iphone.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Apple iPhone 11 Pro, 256GB, Midnight Green - Fully Unlocked
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $1299.99</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/Galaxy S21.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Samsung Galaxy S21 5G Phantom Pink (128 GB)
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $1129.99</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/Galaxy S20.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Samsung Galaxy S20+ - Unlocked Phone - 128GB (Black)
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $1329.99</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/google pixel.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Google - Pixel 3a with 64GB Memory Cell Phone (Unlocked) - Just Black - G020G
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $449.99</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/iphone X.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Apple iPhone X, GSM Unlocked 5.8in, 256 GB - Silver (Renewed)
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $690.00</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/ASUS laptop.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">ASUS Laptop M509 15.6” NanoEdge HD, AMD R7-3700U CPU, 8GB DDR4 RAM, 512GB PCIe M.2 SSD, Radeon RX Vega 10 Graphics, Windows 10 Home, Fingerprint, M509DA-AB71-CA, Slate Gray
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $768.21</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/lenovo laptop.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Lenovo Legion 5 Gaming Laptop, 15.6" FHD (1920x1080) IPS Screen, AMD Ryzen 7 4800H Processor, 16GB DDR4, 512GB SSD, NVIDIA GTX 1660Ti, Windows 10, 82B1000AUS, Phantom Black
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $1299.99</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/Samsung laptop.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Samsung Galaxy Book Ion 15 (i7/512GB) - Aura Silver
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $1699.99</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/Acer laptop.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Acer Aspire 3 Slim 15.6” FHD, Ci3-1005G1, 12GB 256GB SSD, Windows 10S, Iron, A315-56-31JX
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $649.99</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/ASUS vivobook.png">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">ASUS VivoBook 15 Thin and Light Laptop, 15.6” FHD Display, AMD Ryzen 5 4500U Processor, 12GB DDR4 RAM, 1TB (5400RPM) HDD + 256GB SSD, Fingerprint Reader, Windows 10 Home - M513IA-BH51-CB
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $769.80</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+  
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/1613121013(1).jpg">
+                </div>
+            </div>
+            
+  
+
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/1613120889(1).jpg">
+                </div>
+            </div>
+            
+
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/1613120924(1).jpg">
+                </div>
+            </div>
+            
+            <div id="product-info">
+                <div id="product-desc">Klipsch Reference Theater Pack 5.1 Channel Surround Sound System
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $1652</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-star"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="product-box">
+            <div id="img">
+                <div id="product-pic">
+                    <img src="img/searchResult/1613121036(1).jpg">
+                </div>
+            </div>
+            
+
+            <div id="product-info">
+                <div id="product-desc">Bose Solo Soundbar Series II
+                </div>
+                <div class="product-prop price">
+                    <div class="tag">price</div>
+                    <div class="content"> $179.99</div>
+                </div>
+                <div class="product-prop rate">
+                    <div class="tag">rate</div>
+                    <div class="content">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-star"></i>
+                    </div>
+                </div>
+                <div class="product-prop">
+                    <div class="tag">amount</div>
+                    <div class="content">
+                        <a href="javascript:" class="btn btn_minus" role="button"></a>
+                        <input class="inputNum" value="1" size="1">
+                        <a href="javascript:" class="btn btn_plus" role="button"></a>
+                    </div>
+                </div>
+                
+                
+                <div class="addpurchase">
+                    <button type="button" class="add">
+                        <i class="iconfont icon-gouwuchetianjia">add to chart</i>
+                    </button>
+                    <button type="button" class="purchase">buy now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
